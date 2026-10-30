@@ -93,20 +93,15 @@
             <!-- Brand Logo -->
             <a href="#" class="flex items-center gap-3.5 group">
                 <div class="relative w-11 h-11 flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
-                    <!-- Accurate SVG reproduction of the Logo Mark -->
                     <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-[0_0_8px_rgba(255,94,30,0.5)]">
-                        <!-- Isometric Hex Lattice Frame -->
                         <polygon points="50,12 88,34 88,78 50,98 12,78 12,34" fill="none" stroke="#E2E8F0" stroke-width="3" stroke-linejoin="round"/>
-                        <!-- Inner Spokes and Cube Vertex Lines -->
                         <line x1="50" y1="56" x2="50" y2="12" stroke="#CBD5E1" stroke-width="2.5"/>
                         <line x1="50" y1="56" x2="88" y2="78" stroke="#CBD5E1" stroke-width="2.5"/>
                         <line x1="50" y1="56" x2="12" y2="78" stroke="#CBD5E1" stroke-width="2.5"/>
                         <line x1="50" y1="56" x2="88" y2="34" stroke="#94A3B8" stroke-width="1.8" stroke-dasharray="3,2"/>
                         <line x1="50" y1="56" x2="12" y2="34" stroke="#94A3B8" stroke-width="1.8" stroke-dasharray="3,2"/>
                         <line x1="50" y1="56" x2="50" y2="98" stroke="#94A3B8" stroke-width="1.8" stroke-dasharray="3,2"/>
-                        <!-- Inner Precision Circle -->
                         <circle cx="50" cy="56" r="26" fill="none" stroke="#64748B" stroke-width="1.5" opacity="0.6"/>
-                        <!-- Nodes (Bright Orange Spheres) -->
                         <circle cx="50" cy="28" r="5" fill="#FF5E1E"/>
                         <circle cx="88" cy="34" r="5.5" fill="#FF5E1E"/>
                         <circle cx="70" cy="68" r="5" fill="#FF5E1E"/>
@@ -129,9 +124,9 @@
                 <a href="#capabilities" class="hover:text-brand-orange transition-colors">Возможности</a>
                 <a href="#simulator" class="hover:text-brand-orange transition-colors">Калькулятор плеча</a>
                 <a href="#api" class="hover:text-brand-orange transition-colors">Swagger API</a>
-                <a href="#rospatent" class="hover:text-brand-orange transition-colors flex items-center gap-1.5">
+                <a href="#asset-transfer" class="hover:text-brand-orange transition-colors flex items-center gap-1.5">
                     <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                    Роспатент & НМА
+                    Передача IP & Сделка
                 </a>
             </nav>
 
@@ -293,7 +288,6 @@
 
                 <!-- Simulation Output -->
                 <div class="lg:col-span-7 space-y-6">
-                    <!-- Result Card -->
                     <div class="glass-panel p-6 sm:p-8 rounded-2xl border-brand-border relative overflow-hidden">
                         <div class="flex items-center justify-between border-b border-brand-border pb-4 mb-6">
                             <div class="flex items-center gap-3">
@@ -543,8 +537,8 @@
         </div>
     </section>
 
-    <!-- LEGAL READINESS / ROSPATENT & ASSET TRANSFER SECTION -->
-    <section id="rospatent" class="py-20 relative z-10">
+    <!-- ASSET TRANSFER & ON-PREMISE SECTION -->
+    <section id="asset-transfer" class="py-20 relative z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="glass-panel p-8 sm:p-12 rounded-3xl border border-brand-border/90 relative overflow-hidden">
                 <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-brand-orange/10 rounded-full blur-3xl pointer-events-none"></div>
@@ -552,19 +546,19 @@
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                     <div class="lg:col-span-8">
                         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold uppercase tracking-wider mb-4">
-                            Юридическая чистота и НМА
+                            Юридическая чистота и архитектура
                         </div>
                         <h2 class="text-2xl sm:text-4xl font-extrabold text-white">
                             Готовность актива к передаче исключительных прав
                         </h2>
                         <p class="text-slate-400 mt-3 text-sm sm:text-base leading-relaxed">
-                            SCM ENGINE подготовлен к юридической передаче покупателю на Telderi или прямой сделке: сформированы заявление и реферат для регистрации программы для ЭВМ в Роспатенте, архитектурное описание и чистый репозиторий без сторонних лицензионных обременений.
+                            SCM ENGINE подготовлен к юридической передаче покупателю на Telderi или прямой сделке: чистый репозиторий без скрытых лицензионных обременений, 100% авторский стек и архитектура On-Premise для изолированного контура.
                         </p>
 
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
                             <div class="bg-brand-card p-4 rounded-xl border border-brand-border/80">
-                                <div class="text-brand-orange font-bold text-sm">Роспатент ПрЭВМ</div>
-                                <div class="text-xs text-slate-400 mt-1">Пакет документов (заявление, реферат, листинг) подготовлен</div>
+                                <div class="text-brand-orange font-bold text-sm">On-Premise & Docker</div>
+                                <div class="text-xs text-slate-400 mt-1">Изолированное развертывание в закрытом контуре заказчика без внешних зависимостей и облаков</div>
                             </div>
                             <div class="bg-brand-card p-4 rounded-xl border border-brand-border/80">
                                 <div class="text-brand-orange font-bold text-sm">100% Исходный код</div>
@@ -580,9 +574,8 @@
                     <div class="lg:col-span-4 flex flex-col gap-3">
                         <div class="bg-brand-dark/90 p-5 rounded-2xl border border-brand-border text-center">
                             <div class="text-xs uppercase text-slate-400 font-semibold tracking-wider">Формат передачи лота</div>
-                            <div class="text-xl font-extrabold text-white mt-1">Полная передажа IP</div>
+                            <div class="text-xl font-extrabold text-white mt-1">Полная передача IP</div>
                             <div class="text-xs text-emerald-400 mt-1 font-medium">Безопасная сделка Telderi / Договор отчуждения</div>
-                            <!-- Updated CTA Button -->
                             <a href="https://telderi.ru/ru/viewsite/ВАШ_ID_ЛОТА" target="_blank" rel="noopener noreferrer" class="mt-4 inline-block w-full py-3 px-4 rounded-xl bg-brand-orange hover:bg-brand-orange-hover text-white text-xs font-bold uppercase tracking-wider transition-all text-center">
                                 Купить через Безопасную сделку Telderi
                             </a>
@@ -634,7 +627,6 @@
 
     <!-- INTERACTIVE ENGINE JAVASCRIPT -->
     <script>
-        // State for transport mode selection
         let selectedMode = 'rail';
 
         const modeButtons = document.querySelectorAll('.mode-btn');
@@ -650,7 +642,6 @@
             });
         });
 
-        // Interactive Calculation Engine Logic
         const btnCalc = document.getElementById('btn-calc');
         const resDays = document.getElementById('res-days');
         const resTransits = document.getElementById('res-transits');
@@ -667,7 +658,6 @@
         btnCalc.addEventListener('click', runSimulation);
 
         function runSimulation() {
-            // UI feedback animation
             btnCalc.classList.add('opacity-75');
             btnCalc.innerHTML = '<span>Выполняется расчет матрицы...</span>';
 
@@ -675,7 +665,6 @@
             const dest = document.getElementById('sim-dest').value;
             const cargo = document.getElementById('sim-cargo').value;
 
-            // Generate realistic randomized execution time (32 - 48 ms)
             const randomMs = (Math.random() * 0.02 + 0.03).toFixed(3);
 
             setTimeout(() => {
@@ -688,18 +677,15 @@
                 let tnvedCode = "8507.60.000.0";
                 let isHazardous = false;
 
-                // Origin labels
                 if (origin === 'szx') originLabel = 'Шэньчжэнь (SZX)';
                 if (origin === 'ngb') originLabel = 'Нинбо (NGB)';
                 if (origin === 'ist') originLabel = 'Стамбул (IST)';
                 if (origin === 'sha') originLabel = 'Шанхай (SHA)';
 
-                // Destination labels
                 if (dest === 'brast') destLabel = 'ТЛЦ Белый Раст';
                 if (dest === 'vorsino') destLabel = 'Ворсино';
                 if (dest === 'khovrino') destLabel = 'Ховрино';
 
-                // Cargo logic
                 if (cargo === 'un3480') {
                     dangerText = "Class 9 UN 3480";
                     dangerSub = "MSDS & Watt-hour OK";
@@ -719,7 +705,6 @@
                     tnvedCode = "8542.31.901.0";
                 }
 
-                // Transport Mode logic
                 if (selectedMode === 'air') {
                     days = "4–6";
                     transitHub = "Шереметьево Карго / SVO";
@@ -731,7 +716,6 @@
                     transitHub = origin === 'ist' ? "Верхний Ларс / Новороссийск" : "Маньчжурия / Забайкальск";
                 }
 
-                // Update UI elements
                 resDays.innerHTML = `${days} <span class="text-xs text-brand-orange font-sans">дней</span>`;
                 resTransits.textContent = `Транзит: ${transitHub}`;
                 resDanger.textContent = dangerText;
@@ -743,7 +727,6 @@
                 step2.textContent = transitHub;
                 step3.textContent = destLabel;
 
-                // Update Response Code Block
                 const responseData = {
                     "status": "success",
                     "execution_time_sec": parseFloat(randomMs),
@@ -769,7 +752,6 @@
             }, 350);
         }
 
-        // Copy JSON payload button
         document.getElementById('btn-copy-json').addEventListener('click', () => {
             const code = document.getElementById('code-output').textContent;
             copyTextToClipboard(code);
